@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #333333;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    font-size: 20px;
+}
+nav ul li a{
+    list-style-type: none;
+    padding-left: 38px;
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
+    
+}
+ a:hover{
+    color: pink;
+}
+.second-section{
+    width: 100%;
+    max-height: 1083px;
+    
+}
+/* .second-section img{
+    width: 100%;
+    height: 100%;
+    
+} */
+.image-container{
+    position: relative;
+    color: white;
+    /* background-color: #000000; */
+}
+.text-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
+}
+.f-header{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    font-size: 45px;
+    font-weight: bold;
+}
+.middle-text h2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.middle-text p{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+.third-section{
+    background-color: #252529;
+    width: 100%;
+    height: 100%;
+    
+}
+.music-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    color: white;
+}
+.third-section .music-section h1, h2, p{
+    padding-bottom: 25px;
+}
+.icon-size{
+    margin: 0 5px -4px;
+}
+
+.music-section p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.music-section button{
+    padding: 10px;
+    margin-bottom: 25px;
+    background-color: red;
+    width: 160px;
+    border-radius: 10px;
+    height: 45px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.music-section button:hover{
+    transform: scale(1.1);
+}
+.music-section img{
+    padding-bottom: 25px; 
+}
+.fourth-section{
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 100%;
+}
+.Show-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 55px;
+    font-size: 20px;
+}
+.Show-info h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.Show-info button{
+    width: 115px;
+    height: 45px;
+    background-color: rgb(15, 15, 75);
+    color: white;
+    border-radius: 8px; 
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.Show-info button:hover{
+    width: 130px;
+    font-size: 15px;
+    color:rgb(128, 88, 9)
+}
+
+.fifth-section{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    
+}
+.sky-background{
+    position: relative;
+
+}
+.sky-background img{
+    width: 100%;
+    height: 600px; 
+    
+}
+.sky-background .world-containt{
+    color: white;
+    font-weight: 500;
+    position: absolute;
+    top: 40%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.world-containt p{
+    line-height: 25px;
+}
+.six-section{
+    width: 100%;
+    height: 50%;
+    
+}
+.card-section {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+
+.card-section img {
+    padding-top: 40px;
+    width: 450px;
+    height: auto;
+}
+.con-6{
+    padding-top: 35px;
+
+}
+.con-6 h2{
+    font-size: 1.5em;
+    font-weight: 600;
+    float: left;
+    
+}
+.con-6 .inline{
+    text-align: left;
+    float: left;
+
+}
+
+.con-6 a{
+    text-decoration: none;
+    
+}
+.space{
+    margin-right: 5px;
+}
+    
+
+footer{
+    background-color: #252529;
+    width: 100%;
+    height: 100%;
+}
+footer .footer-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer-section {
+    padding: 50px 0px;
+}
+.coln {
+    width: 18%;
+    padding: 0 50px;
+    color: white;
+}
+.coln hr{
+    border-bottom: 1px;
+    width:  225px;
+    margin: -10px 0 26px 0;
+}
+ul li{
+    cursor: pointer;
+    list-style: none;
+    margin: 10px 0px;
+    pointer-events: all;
+    
+}
+.coln ul li:hover{
+    color: skyblue;
+    
+}
+
+.copy-right p{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    background-color: rgb(56, 53, 53);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 !important;
+}
